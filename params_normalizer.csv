@@ -1,0 +1,29 @@
+variable,value,comments
+inputCSVfilename,PracticeSet1t2.csv,#csv file with all the info
+number_of_sample_racks,0,#up to 4 sample racks allowed (24 1.5 ml eppies each); for a deep well sample plate use 0 (zero)
+sample_aspiration_height,2,#mm above the bottom of the sample for aspiration
+aspiration_delay_sec,1,#number of seconds that the tip remains in the sample liquid after aspiration
+mix,1,"#Mix before aspirating (0=False, 1=True)"
+mix_vol,50,#volume used to mix (ul)
+mix_reps,2,#number of replicate mixes using mix_vol
+diluent_location,A1,#If 15 ml or 50 ml then use the tube rack; if 2 ml then use the 2 ml rack 
+diluent_tube_size,15 ml,#Falcon 15 ml and 50 ml are the only options (must be '15 ml' or '50 ml')
+diluent_vol,6000,#total starting volume of diluent (ul); needed to set the pipette tip depth
+add_tcep,yup,#to skip this step use 0 (zero); to include this step use 1
+tcep_location,A2,#If 15 ml or 50 ml then use the tube rack; if 2 ml then use the 2 ml rack 
+tcep_tube_size,15 ml,#If 15 ml or 50 ml then use the tube rack; if 2 ml then use the 2 ml rack rack
+tcep_vol,5000,#starting amount of tcep solution (ul)
+tcep_vol_perWell,50,#volume of tcep solution to add to each well (ul)
+add_iam,0,#to skip this step use 0 (zero); to include this step use 1
+iam_location,A1,#If 15 ml or 50 ml then use the tube rack; if 2 ml then use the 2 ml rack 
+iam_tube_size,2 ml,#If 15 ml or 50 ml then use the tube rack; if 2 ml then use the 2 ml rack rack
+iam_vol,1000,#starting amount of iam solution (ul)
+iam_vol_perWell,10,#volume of iam solution to add to each well (ul)
+control_1,yup,"#use control 1 (0=False, 1=True); 'cntl1' "
+cntl1_location,A2,#If 15 ml or 50 ml then use the tube rack; if 2 ml then use the 2 ml rack 
+cntl1_tube_size,2 ml,"#control samples have to be in 1.5,  2.0, or 15 ml tubes"
+cntl1_vol,300,#total volume available for control 1
+control_2,yes,"#use control 2 (0=False, 1=True)"
+cntl2_location,A3,#If 15 ml or 50 ml then use the tube rack; if 2 ml then use the 2 ml rack 
+cntl2_tube_size,2 ml,"#control samples have to be in 1.5,  2.0, or 15 ml tubes"
+cntl2_vol,300,#total volume available for control 1
