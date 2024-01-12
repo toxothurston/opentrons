@@ -1,0 +1,17 @@
+variable,value,comments
+inputCSVfilename,csv_test2.csv,#csv file with all the info
+number_of_sample_racks,4,#when there are too many samples to fit in one rack (24); up to 3 racks allowed; use 0 (zero) when samples in deep well plate
+sample_vol_perWell,25,#ul of sample per well
+sample_aspiration_height,2,#mm above the bottom of the sample vial for aspiration
+aspiration_delay_sec,1,#number of seconds that the tip remains in the sample liquid after aspiration
+mix,false,#True or False: should the sample be mixed prior to aspiration?
+mix_reps,1,#Number of replicate mixes
+mix_vol,50,#Volume of the mixes
+aspirate_reagent,false,#If BCA reagent is manually aspirated already use 0; use 1 to have the robot do it
+reagent_vol_perWell,200,#ul of BCA reagent per well
+reagent_vol,10000,#total starting volume of BCA reagent (ul)
+reagent_tube_size,15 ml,#Falcon 15 ml and 50 ml are the only options
+reagent_location,A3,#location on the tube rack that contains the BCA reagent tube
+diluent_vol,5000,#total starting volume of diluent (ul)
+diluent_tube_size,15 ml,#Falcon 15 ml and 50 ml are the only options
+diluent_location,A2,#location on the tube rack that contains the sample diluent tube

@@ -1,0 +1,19 @@
+sample name,aspirate tray,aspirate location,dilution,dispense location
+bsa 2 mg/ml,1,A1      ,1,A1
+bsa 1 mg/ml,1,A2,1,A2
+bsa 0.5 mg/ml,1,A3,1,A3
+bsa 0.25 mg/ml,1,A4,1,A4
+bsa 0.125 mg/ml,1,A5,1,A5
+water,1,A6,1,A6
+bsa 2 mg/ml,1,A1      ,1,B1
+bsa 1 mg/ml,1,A2,1,B2
+bsa 0.5 mg/ml,1,A3,1,B3
+bsa 0.25 mg/ml,1,A4,1,B4
+bsa 0.125 mg/ml,1,A5,1,B5
+water,1,A6,1,B6
+bsa 1 mg/ml,1,A2,1,C1
+bsa 1 mg/ml,1,A2,1,C2
+bsa 1 mg/ml,1,A2,1,C3
+bsa 0.25 mg/ml,1,A2,4,D1
+bsa 0.25 mg/ml,1,A2,4,D2
+bsa 0.25 mg/ml,1,A2,4,D3
